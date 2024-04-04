@@ -375,12 +375,19 @@ body{
     font-size: 14px;
     color: black;
 }
-.smokig .container .buy .size .choise select{ 
+.smokig .container .buy .size .choise { 
     width: 470px;
     height: 50px;
     border: 1px solid rgb(192, 192, 192);
     color: rgb(192, 192, 192);
     
+}
+.smokig .container .buy .size .choise .text {
+    margin-left: 20px;
+    font-family: 'Manrope';
+    font-size: 15px;
+    align-items: center;
+
 }
 
 .smokig .container .buy .sell{
@@ -398,6 +405,10 @@ body{
     width: 270px;
     height: 50px;
     border: 1px solid rgb(192, 192, 192);
+    margin-left: 20px;
+    font-family: 'Manrope';
+    font-size: 15px;
+    
 }
 
 .smokig .container .buy .sell input::-webkit-input-placeholder{
@@ -637,7 +648,9 @@ body{
 .subscribe .container .phottotxt .vibor input{
     height: 20px;
     width: 20px;
-    background-color: black;
+    
+    background: #000;;
+    
 }
 .subscribe .container .phottotxt .vibor .frst {
     display: flex;
@@ -753,6 +766,24 @@ body{
         align-items: center;
        
     }
+    .smokig .container .buy .size .choise .text {
+        
+        font-size: 20px;
+        position: relative;
+        top: -10px;
+        
+    }
+    .smokig .container .buy .sell input {
+        font-size: 20px;
+    }
+    .smokig .container .buy .infocost label {
+        font-family: 'Manrope';
+        font-size: 25px;
+    }
+    .smokig .container .buy .infocost .perecluch .text {
+        font-family: 'Manrope';
+        font-size: 20px;
+    }
     .subscribe .container h2{
         font-size: 54px !important;
         margin-left: 100px;
@@ -774,7 +805,17 @@ body{
         font-size: 40px;
     }
     .about .container .womantxt h3{
+        font-size: 19px;
+    }
+    .subscribe .container .phottotxt .input h3 {
+        font-family: 'Manrope';
         font-size: 18px;
+    }
+    .subscribe .container .phottotxt .input .send {
+        font-size: 20px;
+    }
+    .smokig .container .buy .katalog {
+        font-size: 20px;
     }
     .advantages .container{
         padding-left: 20px;
@@ -997,6 +1038,27 @@ body{
     .mans .container a{
         margin-right: 20px !important;
     }
+    .smokig .container .buy .size {
+        width: 90px;
+        position: relative;
+        left: 10px;
+    }
+    .smokig .container .buy .size .choise {
+        position: relative;
+        left: -90px;
+        width: 250px;
+    }
+    .smokig .container .buy .size .text a {
+        position: relative;
+        right: -40px;
+    }
+    .smokig .container .buy .size .text h2 {
+        position: relative;
+        right: 90px;
+    }
+    .smokig .container .buy .sell {
+        display: block;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1056,8 +1118,9 @@ body{
         width: 400px !important;
     }
     .smokig .container .buy .sell input{
-        width: 200px !important;
-        margin-left: 20px !important;
+        width: 100px !important;
+        margin-left: 10px !important;
+        font-size: 15px;
     }
     .smokig .container .buy .sell h2{
         margin-right: 20px !important;
@@ -1227,7 +1290,7 @@ body{
         width: 280px !important;
     }
     .smokig .container .buy .sell input{
-        width: 200px !important;
+        width: 250px !important;
         margin-left: 5px !important;
     }
     .smokig .container .buy button{
@@ -1245,8 +1308,9 @@ body{
         margin-right: 0 !important;
     }
     
+    
     .smokig .container .buy .infocost label{
-        font-size: 12px !important;
+        font-size: 15px !important;
         margin-right: 5px !important;
     }
     .smokig .container .buy .infocost .perecluch .text1{
@@ -1254,6 +1318,10 @@ body{
     }
     .smokig .container .buy .infocost{
         margin-top: 20px;
+        width: 200px;
+    }
+    .contacts .container {
+        height: 190px;
     }
     .smokig .container .buy .infocost .perecluch .text2{
         font-size: 14px !important;
@@ -1302,12 +1370,12 @@ body{
         font-size: 20px !important;
     }
     .collection .bg .container h3{
-        font-size: 10px !important;
+        font-size: 13px !important;
     }
     .collection .bg .container button{
         width: 100px !important;
         height: 30px !important;
-        font-size: 7px !important;
+        font-size: 10px !important;
     }
     .mono .container .vsem{
         font-size: 18px !important;
